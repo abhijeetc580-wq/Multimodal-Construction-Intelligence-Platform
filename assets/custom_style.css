@@ -1,0 +1,63 @@
+/* Modern Construction-Tech Theme for ConstructIQ */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap');
+
+html, body, [class*="css"] {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+/* Header Banner */
+.main-header {
+    background: linear-gradient(135deg, #0F172A 0%, #1E293B 100%);
+    border-left: 5px solid #FF6B00;
+    padding: 1.25rem 1.75rem;
+    border-radius: 8px;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.main-header h1 {
+    color: #F8FAFC !important;
+    font-size: 1.85rem;
+    font-weight: 800;
+    margin: 0;
+    letter-spacing: -0.025em;
+}
+
+.main-header p {
+    color: #94A3B8 !important;
+    font-size: 0.95rem;
+    margin: 0.35rem 0 0 0;
+}
+
+/* Metric Cards */
+[data-testid="stMetricValue"] {
+    font-weight: 700 !important;
+    font-family: 'JetBrains Mono', monospace !important;
+}
+
+/* Tabs */
+.stTabs [data-baseweb="tab-list"] {
+    gap: 8px;
+}
+
+.stTabs [data-baseweb="tab"] {
+    height: 48px;
+    white-space: pre-wrap;
+    background-color: transparent;
+    border-radius: 6px 6px 0 0;
+    padding: 0 16px;
+    font-weight: 600;
+}
+
+/* Buttons */
+button[kind="primary"] {
+    background-color: #FF6B00 !important;
+    border-color: #EA580C !important;
+    color: #FFFFFF !important;
+    font-weight: 600 !important;
+}
+
+button[kind="primary"]:hover {
+    background-color: #EA580C !important;
+    border-color: #C2410C !important;
+}

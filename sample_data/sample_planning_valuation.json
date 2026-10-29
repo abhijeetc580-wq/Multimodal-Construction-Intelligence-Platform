@@ -1,0 +1,47 @@
+{
+  "project_parameters": {
+    "structure_type": "Residential (Apartment / High-Rise)",
+    "built_up_area_sqft": 15000,
+    "location_tier": "Tier 1 (Mumbai, Bengaluru, Delhi-NCR, Hyderabad, Pune, Chennai)",
+    "construction_cost_per_sqft_inr": 2400.0,
+    "completion_percentage": 65.0
+  },
+  "budget_and_expenditure": {
+    "total_estimated_budget_inr": 36000000.0,
+    "total_estimated_budget_formatted": "₹ 3.60 Crore",
+    "expenditure_to_date_inr": 23400000.0,
+    "expenditure_to_date_formatted": "₹ 2.34 Crore",
+    "remaining_budget_inr": 12600000.0,
+    "remaining_budget_formatted": "₹ 1.26 Crore"
+  },
+  "real_estate_valuation": {
+    "base_market_rate_per_sqft_inr": 8500.0,
+    "indicative_property_valuation_inr": 107737500.0,
+    "indicative_property_valuation_formatted": "₹ 10.77 Crore",
+    "estimated_developed_market_value_completed_inr": 127500000.0,
+    "estimated_developed_market_value_completed_formatted": "₹ 12.75 Crore"
+  },
+  "material_estimates": {
+    "cement_bags_50kg": {
+      "quantity": 6300,
+      "assumption": "0.42 bags per sq. ft. of built-up area (IS 456 specification)",
+      "estimated_cost_inr": 2394000.0,
+      "estimated_cost_formatted": "₹ 23.94 Lakh"
+    },
+    "steel_tmt_rebar_metric_tonnes": {
+      "quantity": 60.0,
+      "assumption": "4.0 kg (0.004 tonnes) per sq. ft. for high-rise RCC framing",
+      "estimated_cost_inr": 3900000.0,
+      "estimated_cost_formatted": "₹ 39.00 Lakh"
+    },
+    "sand_m_sand_cft": {
+      "quantity": 27000,
+      "assumption": "1.8 cu. ft. per sq. ft. of built-up area"
+    },
+    "coarse_aggregate_cft": {
+      "quantity": 18000,
+      "assumption": "1.2 cu. ft. per sq. ft. of built-up area"
+    }
+  },
+  "disclaimer": "VALUATION DISCLAIMER: Calculations are indicative financial models based on standard civil engineering heuristics and regional market averages. They do not constitute guaranteed contractor bids or statutory real-estate appraisals."
+}

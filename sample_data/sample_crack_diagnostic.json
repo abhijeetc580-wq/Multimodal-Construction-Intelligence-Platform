@@ -1,0 +1,34 @@
+{
+  "diagnostic_metadata": {
+    "diagnostic_id": "CRACK-20261029-4109",
+    "timestamp": "2026-10-29T15:35:00+05:30",
+    "mode": "DEMO / SIMULATED DEFECT ANALYSIS",
+    "element_inspected": "Reinforced Concrete Shear Wall (Bay 4, Elevation +18.5 ft)",
+    "code_standard": "ACI 224R-01: Control of Cracking in Concrete Structures"
+  },
+  "defect_classification": {
+    "primary_defect": "Structural Shear",
+    "alternative_possibilities": [
+      "Settlement",
+      "Thermal Expansion"
+    ],
+    "estimated_crack_width": "1.8 - 2.5 mm",
+    "severity": "High",
+    "urgency": "Urgent Engineering Review Required"
+  },
+  "engineering_analysis": {
+    "possible_causes": [
+      "Diagonal tension shear stress exceeding concrete tensile capacity under localized load redistribution",
+      "Minor differential settlement of adjacent pile cap foundation footing",
+      "Restrained thermal contraction coupled with high curing heat differential during initial concrete pour"
+    ],
+    "structural_risk_assessment": "The diagonal angle (~45 degrees) and aperture width (> 1.5 mm) indicate active shear stress transfer. Rebar bond slip or yield may be occurring if loading is dynamic.",
+    "recommended_next_steps": [
+      "Step 1: Install dual calibrated mechanical crack tell-tale monitoring gauges across the fissure to track active movement over 14 days.",
+      "Step 2: Commission a formal physical site inspection by a licensed Structural Engineer of Record (SEOR).",
+      "Step 3: Conduct non-destructive Ultrasonic Pulse Velocity (UPV) or rebound hammer testing to evaluate depth of penetration.",
+      "Step 4: If active movement ceases, execute low-viscosity epoxy resin pressure injection to restore monolithic shear resistance and prevent rebar carbonation/corrosion."
+    ]
+  },
+  "disclaimer": "ENGINEERING DISCLAIMER: Image-based crack diagnostics are preliminary AI estimates intended for initial triage only. This output cannot replace a formal physical and structural inspection by a licensed Professional Engineer (PE) or qualified structural consultant."
+}

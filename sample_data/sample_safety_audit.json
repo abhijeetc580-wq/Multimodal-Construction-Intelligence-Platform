@@ -1,0 +1,65 @@
+{
+  "audit_metadata": {
+    "audit_id": "AUDIT-20261029-7842",
+    "timestamp": "2026-10-29T15:30:00+05:30",
+    "mode": "DEMO / SIMULATED AUDIT",
+    "inspection_type": "Computer Vision PPE & Site Hazard Scan",
+    "regulatory_standard": "OSHA 1926 Safety and Health Regulations for Construction"
+  },
+  "overall_assessment": {
+    "safety_score": 68.5,
+    "overall_status": "MODERATE RISK - IMMEDIATE CORRECTIVE ACTIONS REQUIRED",
+    "personnel_detected": 3,
+    "compliant_count": 2,
+    "non_compliant_count": 1
+  },
+  "ppe_checklist": [
+    {
+      "item": "Helmets / Hard Hats (OSHA 1926.100)",
+      "detected": true,
+      "compliant": false,
+      "compliance_rate": "66.7%",
+      "notes": "Worker #2 observed working without head protection in active crane swing radius."
+    },
+    {
+      "item": "High-Visibility Safety Vests (ANSI/ISEA 107)",
+      "detected": true,
+      "compliant": true,
+      "compliance_rate": "100.0%",
+      "notes": "All 3 detected workers equipped with Class 2 high-vis fluorescent apparel."
+    },
+    {
+      "item": "Steel-Toe Safety Boots (OSHA 1926.96)",
+      "detected": true,
+      "compliant": true,
+      "compliance_rate": "100.0%",
+      "notes": "Standard industrial grade protective footwear verified on all personnel."
+    },
+    {
+      "item": "Fall Arrest Harnesses (OSHA 1926.501)",
+      "detected": false,
+      "compliant": true,
+      "compliance_rate": "N/A",
+      "notes": "Ground-level operations; no elevated tasks > 6 ft requiring fall harness anchorage."
+    }
+  ],
+  "detected_hazards": [
+    {
+      "hazard_id": "HAZ-001",
+      "severity": "Critical",
+      "category": "Head Protection & Suspended Load",
+      "description": "Worker #2 located in active hoist zone without protective hardhat.",
+      "osha_violation": "OSHA 1926.100(a)",
+      "corrective_action": "Issue immediate whistle-stop order. Supply OSHA-certified Type I Class E hardhat prior to resuming operations."
+    },
+    {
+      "hazard_id": "HAZ-002",
+      "severity": "Medium",
+      "category": "Exclusion Zone Perimeter",
+      "description": "Crane swing radius barrier tape is slack near Bay 2 entrance.",
+      "osha_violation": "OSHA 1926.1424",
+      "corrective_action": "Re-tension hazard perimeter demarcation tape and post high-visibility danger signage."
+    }
+  ],
+  "disclaimer": "DEMO MODE NOTICE: This JSON contains demonstration data. In live mode with a verified Gemini API key, findings are generated via zero-shot multimodal visual inspection."
+}
